@@ -3,3 +3,8 @@
 *.json
 
 *.pdf
+
+Qwen-VL/
+script/
+
+
