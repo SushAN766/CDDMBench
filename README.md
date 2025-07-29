@@ -16,9 +16,9 @@ Please download CDDM images from the following link and extract it to the /datas
 We offer the conversation data in two formats suitable for training Qwen-VL and LLaVA models. The data covers crop disease diagnosis and knowledge.
 
 Please extract the conversation data to the /dataset/VQA/ directory. 
-- [Qwen-VL training data](dataset/VQA/Crop_Disease_train_qwenvl.zip)
-- [LLaVA training data](dataset/VQA/Crop_Disease_train_llava.zip)
-- [Test data](dataset/VQA/test_dataset.zip)
+- [Qwen-VL training data](VQA/Crop_Disease_train_qwenvl.zip)
+- [LLaVA training data](VQA/Crop_Disease_train_llava.zip)
+- [Test data](VQA/test_dataset.zip)
 
 ## Train
 ### Qwen-VL: To run on a machine with 8 GPUs:
