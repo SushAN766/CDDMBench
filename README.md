@@ -58,7 +58,7 @@ isbn="978-3-031-73016-0"
 ## Paper
 For more details, please refer to our paper: [ECCV 2024 Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11606.pdf)  , [arxiv](https://arxiv.org/abs/2503.06973)
 
-
+---
 # Analysis of Multimodal Data Using GNN (CDDM Dataset)
 
 This project demonstrates how to process multimodal data (images + text) from the **CDDM dataset**, convert it into graph format, and train a **Graph Neural Network (GNN)** to perform classification using PyTorch Geometric.
@@ -113,7 +113,7 @@ pip install tqdm
 pip install git+https://github.com/openai/CLIP.git
 pip install umap-learn networkx scikit-learn matplotlib
 ```
-
+---
 ## 🚀 How to Run
 
 ### 📌 Step 1: Graph Construction
@@ -146,23 +146,22 @@ python cddm_visualizer.py
 - If training_log.txt exists, also plots loss_accuracy_plot.png
 
 
-### step 4: Analytics & Extra Plots
-Run the following command to generate additional visualizations and performance analytics:
+### 📌 Step 4: Analytics & Extra Plots
 
 ```bash
 python cddm_analysis.py
 ```
 ✅ This will create the following files in the ./output folder:
 
--graph_structure.png – Visualization of the graph connectivity
+- graph_structure.png – Visualization of the graph connectivity
 
--class_distribution.png – Distribution of disease categories
+- class_distribution.png – Distribution of disease categories
 
--confusion_matrix.png – Model predictions vs actual labels
+- confusion_matrix.png – Model predictions vs actual labels
 
--umap_embedding.png – UMAP visualization of node embeddings
+- umap_embedding.png – UMAP visualization of node embeddings
 
-
+---
 
 ## 🎯 Project Objectives
 
