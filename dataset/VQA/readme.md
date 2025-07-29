@@ -27,11 +27,11 @@ Stores conversational Q&A pairs about crop diseases in a structured format, ofte
 - **image** → Path to the crop image  
 - **conversations** → Dialogue turns between user (human) and model (gpt)  
 
----
-
 ### ✅ Usage in Project
 - **Extract image path** → Used for **image feature extraction**  
-- **Extract textual description from conversations** → Used for **multimodal feature creation**  
+- **Extract textual description from conversations** → Used for **multimodal feature creation**
+
+---
 
 ## ✅ 2. `Crop_Disease_train_qwenvl.json`
 **Purpose:**
@@ -56,11 +56,11 @@ Contains questions and answers about crop images for a different model (QwenVL).
 - **id** → Conversation ID  
 - **conversations** → Dialogue between human and model (contains text and image reference)  
 
----
 
 ### ✅ Usage in Project
 - **Extract image path** → From `<img>...</img>` tags within `conversations`  
-- **Use Q&A text** → To enrich node features for **multimodal GNN**  
+- **Use Q&A text** → To enrich node features for **multimodal GNN**
+---
 
 ## ✅ 3. disease_diagnosis.json
 **Purpose:**
@@ -83,12 +83,11 @@ Provides diagnostic Q&A pairs related to crop disease identification.
 - **image** → Path to the crop image  
 - **answer** → Diagnosis or identification  
 
----
 
 ### ✅ Usage in Project
 - **Combine `question` and `answer`** → Create a single **text feature**  
 - **Link with `image`** → Build **multimodal representation** (image + text) for GNN  
-
+---
 ## ✅ 4. disease_knowledge.json
 **Purpose:**
 Contains detailed knowledge-based questions and answers, e.g., symptoms, prevention, control methods.
@@ -110,7 +109,6 @@ Contains detailed knowledge-based questions and answers, e.g., symptoms, prevent
 - **question** → Knowledge question  
 - **answer** → Detailed answer (long text)  
 
----
 
 ### ✅ Usage in Project
 - **Use `question` + `answer`** → Extract **semantic text features**  
