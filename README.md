@@ -112,6 +112,8 @@ pip install matplotlib
 pip install tqdm
 pip install git+https://github.com/openai/CLIP.git
 pip install umap-learn networkx scikit-learn matplotlib
+pip install pandas matplotlib
+
 ```
 ---
 ## 🚀 How to Run
