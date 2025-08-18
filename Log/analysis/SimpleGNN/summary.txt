@@ -1,0 +1,9 @@
+Model: SimpleGNN
+Checkpoint: ./Result/SimpleGNN_final.pth
+Split evaluated: all-nodes (no test_mask)
+Accuracy: 0.977099
+Artifacts:
+  - graph_structure.png
+  - class_distribution.png
+  - confusion_matrix.png
+  - umap_embedding.png
