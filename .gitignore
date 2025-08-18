@@ -3,6 +3,8 @@
 *.json
 
 *.pdf
-dataset/
+
 Qwen-VL/
 script/
+
+dataset/
