@@ -8,7 +8,7 @@ from tqdm import tqdm
 from sklearn.preprocessing import LabelEncoder
 from torch_geometric.data import Data
 from sklearn.neighbors import NearestNeighbors
-import clip
+import clip # type: ignore
 from PIL import Image
 from collections import Counter
 import sys

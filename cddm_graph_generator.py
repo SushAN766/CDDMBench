@@ -9,9 +9,6 @@
 # Includes debug info for edge statistics
 # Saves graph in PyTorch Geometric Data format
 
-
-
-
 # Supports KNN Graph (default), Cosine Similarity Threshold Graph, and Heterogeneous Graphs
 # Combines multimodal features (Image + Text)
 # Includes debug info for edge statistics
@@ -29,7 +26,7 @@ from tqdm import tqdm
 from sklearn.preprocessing import LabelEncoder
 from torch_geometric.data import Data
 from sklearn.neighbors import NearestNeighbors
-import clip
+import clip # type: ignore
 from PIL import Image
 from collections import Counter
 import numpy as np
