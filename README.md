@@ -20,7 +20,7 @@ Please extract the conversation data to the /dataset/VQA/ directory.
 - [LLaVA training data](VQA/Crop_Disease_train_llava.zip)
 - [Test data](VQA/test_dataset.zip)
 
-## Train
+<!--## Train
 ### Qwen-VL: To run on a machine with 8 GPUs:
 ```shell
 cd Qwen-VL
@@ -57,9 +57,9 @@ isbn="978-3-031-73016-0"
 ```
 ## Paper
 For more details, please refer to our paper: [ECCV 2024 Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11606.pdf)  , [arxiv](https://arxiv.org/abs/2503.06973)
-
+-->
 ---
-# Analysis of Multimodal Data Using GNN (CDDM Dataset)
+## Analysis of Multimodal Data Using GNN (CDDM Dataset)
 
 This project demonstrates how to process multimodal data (images + text) from the **CDDM dataset**, convert it into graph format, and train a **Graph Neural Network (GNN)** to perform classification using PyTorch Geometric.
 
