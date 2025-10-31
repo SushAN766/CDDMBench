@@ -8,3 +8,6 @@ Qwen-VL/
 script/
 
 dataset/
+GNN_AGRICULTURE DATA RESULT/
+
+.gradio/
